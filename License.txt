@@ -1,0 +1,1 @@
+All code is under the MIT license. All assets are under the CC0 license, unless specified otherwise.
