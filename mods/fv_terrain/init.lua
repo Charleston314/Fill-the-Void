@@ -48,6 +48,22 @@ minetest.register_node("fv_terrain:stone_smooth", {
 	is_ground_content = true
 })
 
+minetest.register_node("fv_terrain:stone_dark", {
+	description = "Dark stone",
+	drawtype = "normal",
+	tiles = { "stone_dark.png" },
+	groups = {oddly_breakable_by_hand = 1},
+	is_ground_content = true
+})
+
+minetest.register_node("fv_terrain:stone_rough", {
+	description = "Rough stone",
+	drawtype = "normal",
+	tiles = { "stone_rough.png" },
+	groups = {oddly_breakable_by_hand = 1},
+	is_ground_content = true
+})
+
 --ABMs for the basic blocks
 
 --Replace basic nodes with their replacement nodes
